@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú El Pescador - Todo en Uno</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Restaurante "El Pescador"</h1>
+        <nav>
+            <a href="#pescados">Pescados</a>
+            <a href="#carnes">Carnes</a>
+            <a href="#bebidas">Bebidas</a>
+        </nav>
+    </header>
+
+    <main class="menu-container">
+        
+        <h2 id="pescados" class="section-title">🌊 Especialidades del Mar</h2>
+        <div class="menu-item">
+            <div class="info">
+                <h3>Ceviche Clásico</h3>
+
+                <p>Pescado fresco del día con limón de pica.</p>
+                <span class="price">S/ 35.00</span>
+            </div>
+        </div>
+
+        <h2 id="carnes" class="section-title">🥩 Carnes y Criollo</h2>
+        <div class="menu-item">
+            <div class="info">
+                <h3>Lomo Saltado</h3>
+                <p>Fino lomo al wok con cebolla, tomate y papas fritas.</p>
+                <span class="price">S/ 40.00</span>
+            </div>
+        </div>
+
+        <h2 id="bebidas" class="section-title">🍹 Bebidas y Refrescos</h2>
+        <div class="menu-item">
+            <div class="info">
+                <h3>Chicha Morada</h3>
+                <p>Tradicional de maíz morado con piña y canela.</p>
+                <span class="price">S/ 12.00</span>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Desliza para ver más opciones</p>
+    </footer>
+
+</body>
+</html>
